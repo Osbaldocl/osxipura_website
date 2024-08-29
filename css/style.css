@@ -1,0 +1,41 @@
+/* Estilo del Hero Section */
+#hero {
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 100, 0.7), rgba(0, 0, 100, 0.3)),
+        url('images/osxipura_landing.PNG');
+    background-color: rgba(0, 0, 0, 0.589); /* Color adicional, opcional */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+#hero .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#hero .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Sección de Servicios */
+#servicios .col-md-4 h4 {
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+
