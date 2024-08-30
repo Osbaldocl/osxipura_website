@@ -38,4 +38,38 @@ footer p {
     margin: 0;
 }
 
+/* Navbar */
+.navbar {
+    background-color: #003366; /* Azul oscuro */
+    padding: 1rem;
+}
 
+.navbar-brand {
+    color: #FFFFFF; /* Blanco */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Blanco */
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00BFFF; /* Celeste */
+}
+
+.navbar-toggler {
+    border-color: #FFFFFF; /* Blanco */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox%3D"0 0 30 30" xmlns%3D"http://www.w3.org/2000/svg"%3E%3Cpath stroke%3D"rgba%280, 0, 0, 0.5%29" stroke-width%3D"2" stroke-linecap%3D"round" stroke-miterlimit%3D"10" d%3D"M4 7h22M4 15h22M4 23h22"%3E%3C/path%3E%3C/svg%3E');
+}
+
+/* Hover effect for navbar brand */
+.navbar-brand:hover {
+    color: #00BFFF; /* Celeste */
+}
